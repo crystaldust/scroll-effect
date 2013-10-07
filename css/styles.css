@@ -1,0 +1,77 @@
+#box {
+	overflow: hidden;
+	position: absolute;
+	background-color: #797846;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-radius: 20px;
+}
+
+#imageContainer {
+	position: absolute;
+	overflow: visible;
+	background-color: #aaaaaa;
+	width: 480px;
+}
+
+#barContainer {
+	position: absolute;
+	width: 500px;
+	height: 20px;
+	top: 400px;
+	left: 200px;
+	border-radius: 10px;
+	background-color: #aaeeff;
+}
+
+#barLine {
+	position: absolute;
+	width: 480px;
+	height: 4px;
+	left: 5px;
+	top: 8px;
+	background-color: #000000;
+}
+
+#percentageText {
+	position: absolute;
+	top: -25px;
+	font-family: Calibri, 'Courier New';
+	color: #fea1af;
+	/*left: 5px;*/
+}
+
+#barBall {
+	position: absolute;
+	left: 5px;
+	top: 2.5px;
+	width: 15px;
+	height: 15px;
+	background-color: #ff00ff;
+	border-radius: 10px;
+}
+
+.ScrollImage {
+	position: absolute;
+	width: 480px;
+}
+
+.RoundButton {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: #fea2a3;
+}
+
+.CrystalButton {
+	position: absolute;
+	top: 398px;
+	width: 20px;
+	height: 20px;
+	background: url('../images/crystal_button.png');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	border-style: none;
+}
+
